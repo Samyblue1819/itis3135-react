@@ -26,8 +26,8 @@ export default defineConfig({
     target: "es2019",
     rollupOptions: {
       output: {
-        entryFileNames: "scripts/[name]-[hash].js",
-        chunkFileNames: "scripts/[name]-[hash].js",
+        entryFileNames: "scripts/[name].js",
+        chunkFileNames: "scripts/[name].js",
         assetFileNames: "assets/[name]-[hash][extname]",
       },
     },
